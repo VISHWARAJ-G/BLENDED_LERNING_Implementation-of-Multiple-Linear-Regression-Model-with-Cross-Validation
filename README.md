@@ -1,4 +1,4 @@
-# BLENDED_LERNING
+# BLENDED_LEARNING
 # Implementation-of-Multiple-Linear-Regression-Model-with-Cross-Validation-for-Predicting-Car-Prices
 
 ## AIM:
