@@ -11,25 +11,25 @@ To write a program to predict the price of cars using a multiple linear regressi
 #### 1. Import Libraries
 
 - Import pandas, numpy, and scikit-learn modules for data processing and modeling.
-#### Load Dataset
+#### 2. Load Dataset
 
 - Load the dataset from encoded_car_data.csv.
-#### Select Features and Target
+#### 3. Select Features and Target
 
 - Separate features (X) and target (y) for the model.
-#### Split Dataset
+#### 4. Split Dataset
 
 - Divide data into training and testing sets (80-20 ratio).
-#### Train Model
+#### 5. Train Model
 
 - Fit a Multiple Linear Regression model using the training data.
-#### Evaluate Test Set
+#### 6. Evaluate Test Set
 
 - Calculate MSE and R-squared for test predictions.
-#### Perform Cross-Validation
+#### 7. Perform Cross-Validation
 
 - Conduct 5-fold cross-validation to compute MSE and R-squared values.
-#### Output Results
+#### 8. Output Results
 
 - Print evaluation metrics and cross-validation results.
 ## Program:
