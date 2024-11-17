@@ -8,28 +8,30 @@ To write a program to predict the price of cars using a multiple linear regressi
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Import Libraries
-    - Import pandas, numpy, and scikit-learn modules for data processing and modeling.
-2. Load the dataset.
-    - Load the dataset from encoded_car_data.csv.
-3. Select Features and Target
+#### 1. Import Libraries
 
-    - Separate features (X) and target (y) for the model.
-4. Split Dataset
+- Import pandas, numpy, and scikit-learn modules for data processing and modeling.
+#### Load Dataset
 
-    - Divide data into training and testing sets (80-20 ratio).
-5. Train Model
+- Load the dataset from encoded_car_data.csv.
+#### Select Features and Target
 
-    -    Fit a Multiple Linear Regression model using the training data.
-6. Evaluate Test Set
+- Separate features (X) and target (y) for the model.
+#### Split Dataset
 
-    - Calculate MSE and R-squared for test predictions.
-7. Perform Cross-Validation
+- Divide data into training and testing sets (80-20 ratio).
+#### Train Model
 
-    - Conduct 5-fold cross-validation to compute MSE and R-squared values.
-8. Output Results
+- Fit a Multiple Linear Regression model using the training data.
+#### Evaluate Test Set
 
-    - Print evaluation metrics and cross-validation results.
+- Calculate MSE and R-squared for test predictions.
+#### Perform Cross-Validation
+
+- Conduct 5-fold cross-validation to compute MSE and R-squared values.
+#### Output Results
+
+- Print evaluation metrics and cross-validation results.
 ## Program:
 ```
 /*
